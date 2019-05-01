@@ -1,0 +1,11 @@
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.App\bin\Debug\netcoreapp2.2\AirlineSystem.App.deps.json
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.App\bin\Debug\netcoreapp2.2\AirlineSystem.App.runtimeconfig.json
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.App\bin\Debug\netcoreapp2.2\AirlineSystem.App.runtimeconfig.dev.json
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.App\bin\Debug\netcoreapp2.2\AirlineSystem.App.dll
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.App\obj\Debug\netcoreapp2.2\AirlineSystem.App.csprojAssemblyReference.cache
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.App\obj\Debug\netcoreapp2.2\AirlineSystem.App.csproj.CoreCompileInputs.cache
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.App\obj\Debug\netcoreapp2.2\AirlineSystem.App.RazorAssemblyInfo.cache
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.App\obj\Debug\netcoreapp2.2\AirlineSystem.App.RazorAssemblyInfo.cs
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.App\obj\Debug\netcoreapp2.2\AirlineSystem.App.AssemblyInfoInputs.cache
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.App\obj\Debug\netcoreapp2.2\AirlineSystem.App.AssemblyInfo.cs
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.App\obj\Debug\netcoreapp2.2\AirlineSystem.App.RazorTargetAssemblyInfo.cache

@@ -1,0 +1,6 @@
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.Data\bin\Debug\netcoreapp2.2\AirlineSystem.Data.deps.json
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.Data\bin\Debug\netcoreapp2.2\AirlineSystem.Data.dll
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.Data\obj\Debug\netcoreapp2.2\AirlineSystem.Data.csprojAssemblyReference.cache
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.Data\obj\Debug\netcoreapp2.2\AirlineSystem.Data.csproj.CoreCompileInputs.cache
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.Data\obj\Debug\netcoreapp2.2\AirlineSystem.Data.AssemblyInfoInputs.cache
+C:\Users\plame\Source\Repos\AirlineSystem\AirlineSystem.Data\obj\Debug\netcoreapp2.2\AirlineSystem.Data.AssemblyInfo.cs
