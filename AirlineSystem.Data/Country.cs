@@ -7,10 +7,12 @@ namespace AirlineSystem.Data
     public class Country
     {
         private ICollection<City> cities;
+        private ICollection<Client> residents;
 
         public Country()
         {
             this.cities = new HashSet<City>();
+            this.residents = new HashSet<Client>();
         }
 
         [Key]
@@ -23,6 +25,12 @@ namespace AirlineSystem.Data
         {
             get { return this.cities; }
             set { this.cities = value; }
+        }
+
+        public virtual ICollection<Client> Residents
+        {
+            get { return this.residents; }
+            set { this.residents = value; }
         }
     }
 }

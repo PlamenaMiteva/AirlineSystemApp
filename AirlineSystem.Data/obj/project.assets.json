@@ -2095,11 +2095,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\plame\\Source\\Repos\\AirlineSystem\\AirlineSystem.Data\\AirlineSystem.Data.csproj",
+      "projectUniqueName": "C:\\Users\\plame\\Source\\Repos\\AirlineSystemApp\\AirlineSystem.Data\\AirlineSystem.Data.csproj",
       "projectName": "AirlineSystem.Data",
-      "projectPath": "C:\\Users\\plame\\Source\\Repos\\AirlineSystem\\AirlineSystem.Data\\AirlineSystem.Data.csproj",
+      "projectPath": "C:\\Users\\plame\\Source\\Repos\\AirlineSystemApp\\AirlineSystem.Data\\AirlineSystem.Data.csproj",
       "packagesPath": "C:\\Users\\plame\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\plame\\Source\\Repos\\AirlineSystem\\AirlineSystem.Data\\obj\\",
+      "outputPath": "C:\\Users\\plame\\Source\\Repos\\AirlineSystemApp\\AirlineSystem.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

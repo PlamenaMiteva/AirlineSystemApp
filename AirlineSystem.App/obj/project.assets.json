@@ -12077,11 +12077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\plame\\Source\\Repos\\AirlineSystem\\AirlineSystem.App\\AirlineSystem.App.csproj",
+      "projectUniqueName": "C:\\Users\\plame\\Source\\Repos\\AirlineSystemApp\\AirlineSystem.App\\AirlineSystem.App.csproj",
       "projectName": "AirlineSystem.App",
-      "projectPath": "C:\\Users\\plame\\Source\\Repos\\AirlineSystem\\AirlineSystem.App\\AirlineSystem.App.csproj",
+      "projectPath": "C:\\Users\\plame\\Source\\Repos\\AirlineSystemApp\\AirlineSystem.App\\AirlineSystem.App.csproj",
       "packagesPath": "C:\\Users\\plame\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\plame\\Source\\Repos\\AirlineSystem\\AirlineSystem.App\\obj\\",
+      "outputPath": "C:\\Users\\plame\\Source\\Repos\\AirlineSystemApp\\AirlineSystem.App\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

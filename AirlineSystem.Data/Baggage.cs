@@ -4,11 +4,11 @@ using System.ComponentModel.DataAnnotations;
 
 namespace AirlineSystem.Data
 {
-    public class Flight
+    public class Baggage
     {
         private ICollection<Ticket> tickets;
 
-        public Flight()
+        public Baggage()
         {
             this.tickets = new HashSet<Ticket>();
         }
@@ -17,23 +17,10 @@ namespace AirlineSystem.Data
         public Guid Id { get; set; }
 
         [Required]
-        public Guid DepartureCityId { get; set; }
-
-        public City DepartureCity { get; set; }
+        public BaggageType BaggageType { get; set; }
 
         [Required]
-        public Guid ArrivalCityId { get; set; }
-
-        public City ArrivalCity { get; set; }
-
-        [Required]
-        public DateTime DepartureTime_UTC { get; set; }
-
-        [Required]
-        public DateTime ArrivalTime_UTC { get; set; }
-
-        [Required]
-        public decimal FlightPrice { get; set; }
+        public decimal BaggagePrice { get; set; }
 
         public virtual ICollection<Ticket> Tickets
         {
