@@ -2,17 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace AirlineSystem.Data
+namespace AirlineSystem.Data.EntityModels
 {
     public class City
     {
-        private ICollection<Airport> airports;
-
-        public City()
-        {
-            this.airports = new HashSet<Airport>();
-        }
-
         [Key]
         public Guid Id { get; set; }
 
@@ -24,10 +17,6 @@ namespace AirlineSystem.Data
 
         public virtual Country Country { get; set; }
 
-        public virtual ICollection<Airport> Airports
-        {
-            get { return this.airports; }
-            set { this.airports = value; }
-        }
+        public virtual ICollection<Airport> Airports { get; set; } = new HashSet<Airport>();
     }
 }

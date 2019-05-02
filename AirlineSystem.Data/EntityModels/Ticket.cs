@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace AirlineSystem.Data
+namespace AirlineSystem.Data.EntityModels
 {
     public class Ticket
     {

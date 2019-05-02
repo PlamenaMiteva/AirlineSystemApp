@@ -2,16 +2,12 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace AirlineSystem.Data
+namespace AirlineSystem.Data.EntityModels
 {
     public class Passenger
     {
-        private ICollection<Ticket> tickets;
-
-        public Passenger()
-        {
-            this.tickets = new HashSet<Ticket>();
-        }
+        [Key]
+        public Guid Id { get; set; }
 
         [Required]
         public string FirstName { get; set; }
@@ -20,6 +16,9 @@ namespace AirlineSystem.Data
         public string LastName { get; set; }
 
         public string Email { get; set; }
+
+        [Required]
+        public DateTime BirthDate { get; set; }
 
         [Required]
         public DocumentType DocumentType { get; set; }
@@ -39,10 +38,6 @@ namespace AirlineSystem.Data
 
         public virtual Client Client { get; set; }
 
-        public virtual ICollection<Ticket> Tickets
-        {
-            get { return this.tickets; }
-            set { this.tickets = value; }
-        }
+        public virtual ICollection<Ticket> Tickets { get; set; } = new HashSet<Ticket>();
     }
 }

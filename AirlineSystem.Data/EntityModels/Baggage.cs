@@ -1,18 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
-namespace AirlineSystem.Data
+namespace AirlineSystem.Data.EntityModels
 {
     public class Baggage
     {
-        private ICollection<Ticket> tickets;
-
-        public Baggage()
-        {
-            this.tickets = new HashSet<Ticket>();
-        }
-
         [Key]
         public Guid Id { get; set; }
 
@@ -20,12 +14,9 @@ namespace AirlineSystem.Data
         public BaggageType BaggageType { get; set; }
 
         [Required]
+        [Column(TypeName = "decimal(18,2)")]
         public decimal BaggagePrice { get; set; }
 
-        public virtual ICollection<Ticket> Tickets
-        {
-            get { return this.tickets; }
-            set { this.tickets = value; }
-        }
+        public virtual ICollection<Ticket> Tickets { get; set; } = new HashSet<Ticket>();
     }
 }

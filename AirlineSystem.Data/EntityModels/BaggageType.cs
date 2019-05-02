@@ -1,4 +1,4 @@
-﻿namespace AirlineSystem.Data
+﻿namespace AirlineSystem.Data.EntityModels
 {
     public enum BaggageType
     {
