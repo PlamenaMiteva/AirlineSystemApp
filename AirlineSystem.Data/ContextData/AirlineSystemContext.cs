@@ -2,8 +2,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using System.IO;
 
 namespace AirlineSystem.Data.ContextData
 {
@@ -34,16 +32,16 @@ namespace AirlineSystem.Data.ContextData
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Flight>()
-        .HasOne(da => da.DepartureAirport)
-        .WithMany(f => f.InboundFlights)
-        .HasForeignKey(da => da.DepartureAirportId)
-        .OnDelete(DeleteBehavior.Restrict); 
+            .HasOne(da => da.DepartureAirport)
+            .WithMany(f => f.InboundFlights)
+            .HasForeignKey(da => da.DepartureAirportId)
+            .OnDelete(DeleteBehavior.Restrict);
 
             modelBuilder.Entity<Flight>()
-        .HasOne(aa => aa.ArrivalAirport)
-        .WithMany(f => f.OutboundFlights)
-        .HasForeignKey(aa => aa.ArrivalAirportId)
-        .OnDelete(DeleteBehavior.Restrict);
+            .HasOne(aa => aa.ArrivalAirport)
+            .WithMany(f => f.OutboundFlights)
+            .HasForeignKey(aa => aa.ArrivalAirportId)
+            .OnDelete(DeleteBehavior.Restrict);
 
             base.OnModelCreating(modelBuilder);
         }

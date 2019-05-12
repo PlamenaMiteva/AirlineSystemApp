@@ -14,6 +14,6 @@ namespace AirlineSystem.Data.EntityModels
 
         public virtual ICollection<City> Cities { get; set; } = new HashSet<City>();
 
-        public virtual ICollection<Client> Residents { get; set; } = new HashSet<Client>();
+        public virtual ICollection<Passenger> Residents { get; set; } = new HashSet<Passenger>();
     }
 }
