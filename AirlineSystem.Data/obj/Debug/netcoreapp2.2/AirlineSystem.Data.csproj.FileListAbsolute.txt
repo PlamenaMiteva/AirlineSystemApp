@@ -13,3 +13,15 @@ C:\Users\plame\Source\Repos\AirlineSystemApp\AirlineSystem.Data\obj\Debug\netcor
 C:\Users\plame\Source\Repos\AirlineSystemApp\AirlineSystem.Data\bin\Debug\netcoreapp2.2\AirlineSystem.Data.pdb
 C:\Users\plame\Source\Repos\AirlineSystemApp\AirlineSystem.Data\obj\Debug\netcoreapp2.2\AirlineSystem.Data.dll
 C:\Users\plame\Source\Repos\AirlineSystemApp\AirlineSystem.Data\obj\Debug\netcoreapp2.2\AirlineSystem.Data.pdb
+C:\Git\AirlineSystem\AirlineSystemApp\AirlineSystem.Data\obj\Debug\netcoreapp2.2\AirlineSystem.Data.csproj.CoreCompileInputs.cache
+C:\Git\AirlineSystem\AirlineSystemApp\AirlineSystem.Data\obj\Debug\netcoreapp2.2\AirlineSystem.Data.AssemblyInfoInputs.cache
+C:\Git\AirlineSystem\AirlineSystemApp\AirlineSystem.Data\obj\Debug\netcoreapp2.2\AirlineSystem.Data.AssemblyInfo.cs
+C:\Git\AirlineSystem\AirlineSystemApp\AirlineSystem.Data\bin\Debug\netcoreapp2.2\AirlineSystem.Data.deps.json
+C:\Git\AirlineSystem\AirlineSystemApp\AirlineSystem.Data\bin\Debug\netcoreapp2.2\AirlineSystem.Data.dll
+C:\Git\AirlineSystem\AirlineSystemApp\AirlineSystem.Data\bin\Debug\netcoreapp2.2\AirlineSystem.Data.pdb
+C:\Git\AirlineSystem\AirlineSystemApp\AirlineSystem.Data\obj\Debug\netcoreapp2.2\AirlineSystem.Data.dll
+C:\Git\AirlineSystem\AirlineSystemApp\AirlineSystem.Data\obj\Debug\netcoreapp2.2\AirlineSystem.Data.pdb
+C:\Git\AirlineSystem\AirlineSystemApp\AirlineSystem.Data\obj\Debug\netcoreapp2.2\AirlineSystem.Data.csprojAssemblyReference.cache
+C:\Git\AirlineSystem\AirlineSystemApp\AirlineSystem.Data\bin\Debug\netcoreapp2.2\AirlineSystem.Common.dll
+C:\Git\AirlineSystem\AirlineSystemApp\AirlineSystem.Data\bin\Debug\netcoreapp2.2\AirlineSystem.Common.pdb
+C:\Git\AirlineSystem\AirlineSystemApp\AirlineSystem.Data\obj\Debug\netcoreapp2.2\AirlineSystem.Data.csproj.CopyComplete

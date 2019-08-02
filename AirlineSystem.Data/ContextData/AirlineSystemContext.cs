@@ -24,7 +24,7 @@ namespace AirlineSystem.Data.ContextData
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            var connectionString = @"Server=(LocalDb)\MSSQLLocalDB;Database=AirlineSystemDB;Trusted_Connection=True;";
+            var connectionString = @"Server=(localdb)\MSSQLLocalDB;Database=AirlineSystemDB;Trusted_Connection=True;";
             optionsBuilder.UseSqlServer(connectionString);
             base.OnConfiguring(optionsBuilder);
         }

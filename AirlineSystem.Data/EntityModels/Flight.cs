@@ -25,7 +25,7 @@ namespace AirlineSystem.Data.EntityModels
         public DateTime ArrivalTime_UTC { get; set; }
 
         [Required]
-        [Column(TypeName = "decimal(18,2)")]
+        [Column(TypeName = "money")]
         public decimal FlightPrice { get; set; }
 
         public virtual ICollection<Ticket> Tickets { get; set; } = new HashSet<Ticket>();

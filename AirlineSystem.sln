@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlineSystem.App", "AirlineSystem.App\AirlineSystem.App.csproj", "{0270DF74-A530-4DAE-B1D3-20750056EBAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirlineSystem.App", "AirlineSystem.App\AirlineSystem.App.csproj", "{0270DF74-A530-4DAE-B1D3-20750056EBAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlineSystem.Data", "AirlineSystem.Data\AirlineSystem.Data.csproj", "{D4CB272D-0321-4E58-A938-7FB398FA5247}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AirlineSystem.Data", "AirlineSystem.Data\AirlineSystem.Data.csproj", "{D4CB272D-0321-4E58-A938-7FB398FA5247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirlineSystem.Common", "AirlineSystem.Common\AirlineSystem.Common.csproj", "{DA290E55-5A41-4642-9E76-CAD5BD962221}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D4CB272D-0321-4E58-A938-7FB398FA5247}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4CB272D-0321-4E58-A938-7FB398FA5247}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4CB272D-0321-4E58-A938-7FB398FA5247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA290E55-5A41-4642-9E76-CAD5BD962221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA290E55-5A41-4642-9E76-CAD5BD962221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA290E55-5A41-4642-9E76-CAD5BD962221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA290E55-5A41-4642-9E76-CAD5BD962221}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

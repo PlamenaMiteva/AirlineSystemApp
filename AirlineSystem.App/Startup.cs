@@ -28,12 +28,12 @@ namespace AirlineSystem.App
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-            var connectionString = @"Server=(LocalDb)\MSSQLLocalDB;Database=AirlineSystemDB;Trusted_Connection=True;";
+            var connectionString = @"Server=(localdb)\MSSQLLocalDB;Database=AirlineSystemDB;Trusted_Connection=True;";
             services.AddDbContext<AirlineSystemContext>(o => o.UseSqlServer(connectionString, optionsBuilder => optionsBuilder.MigrationsAssembly("AirlineSystem.Data")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, AirlineSystemContext context)
         {
             if (env.IsDevelopment())
             {
@@ -48,6 +48,7 @@ namespace AirlineSystem.App
             app.UseHttpsRedirection();
             app.UseAuthentication();
             app.UseMvc();
+            context.EnsureSeedDataForContext();
         }
     }
 }
